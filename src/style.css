@@ -1,0 +1,210 @@
+html {
+  height: 100%;
+  width: 100%; 
+  background-color: #4b496e;
+  color: #25DB00;
+  font-family: 'Roboto';   
+}
+
+header{  
+  display:flex;    
+  background-color: #302E5C;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center; 
+  align-items: center;
+}
+
+main{  
+  display:flex;   
+  height: 650px; 
+  box-sizing: border-box;
+  font-family: 'Red Hat Display';   
+  background-color: #302E5C; 
+  margin-top: 200px;
+}
+
+footer{  
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #302E5C;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;   
+  height: 50px;   
+}
+
+footer p{
+  margin: 0 10px 0 10px;  
+}
+
+.menu a{  
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #25DB00;
+  color: #DB4E00;
+  text-decoration: none;  
+}
+
+#lateral a{  
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #25DB00;
+  color: #DB4E00;
+  text-decoration: none;  
+}
+#botao:hover{
+  transform: scale(1.1);
+}
+
+#botao a:hover{    
+  transition: 0.5s;
+  background-color: #ff42ef;
+  color: black;
+  border: 1px solid black;
+}
+
+ul li:hover{
+  transform: scale(1.1);   
+  transition: 0.9s;   
+}
+
+ul li a:hover{
+  background-color: #ff42ef;
+  color: black;
+  transition: 0.5s; 
+}
+
+span{
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.menu{
+  display:flex; 
+  flex: content;
+  justify-content: end;  
+}
+
+.menu li{  
+  list-style: none;  
+  padding: 0 80px 0 80px;  
+}
+
+.container{
+  display: flex;    
+}
+
+#conjunto--optimus, #conjunto--bumblebee, #conjunto--arcee, #conjunto--megatron, #conjunto--wheeljack{
+  width: 300px;
+  height: 140px;    
+}
+
+#conjunto--optimushd{
+  height: 340px;
+}
+
+.conjunto h4{
+  padding-left: 40px;
+  line-height: 10px; 
+}
+
+.conjunto p{
+  padding-left: 40px; 
+  line-height: 15px; 
+}
+
+#apresentacao{  
+  line-height: 10px;   
+  text-align: left;  
+  width: 300px;
+  padding-top: 50px;  
+}
+
+#apresentacao h1{
+  display: flex;
+  grid-column: span;   
+}
+
+#apresentacao h2{
+  display: flex;
+  grid-column: span;
+  font-weight: 100;
+}
+
+#miniaturas{  
+  display:flex;   
+  margin: 0px 20px 0px 40px;
+  width: 1500px;
+  background-color: #4b496e;
+}
+
+#lateral{    
+  width: 300px;
+  margin: 10px 10px 10px 20px;
+  text-align: center;  
+  background-color: #514e88;  
+}
+
+#lateral img {  
+   margin: auto;
+   display: block; 
+   height: 150px;  
+}
+
+
+#logo{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+#principal{  
+  height: 375px; 
+  display:flex;    
+}
+
+#texto{
+  width: 690px; 
+  text-align: justify;
+}
+
+#sobre{
+  margin-left: 20px;
+}
+
+table {  
+  width: 200px;
+  height: 200px;
+  border-collapse: collapse;
+}
+
+table th{
+  border: 2px solid black;
+  padding: 10px;
+}
+
+table td{
+  border: 2px solid black;
+  padding: 10px;
+}
+
+table caption{
+  margin-top: 5px;
+  caption-side: bottom;
+}
+
+#contatos{   
+  padding-left: 20px;
+}
+
+.conjunto:hover{
+   transform: scale(1.1);
+}
+
+
